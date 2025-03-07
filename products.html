@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Nino's Coffee Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5ebe0;
+            color: #3e2723;
+            text-align: center;
+        }
+        .navbar {
+            background-color: #6f4e37;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        .navbar a:hover {
+            background-color: #3e2723;
+            border-radius: 5px;
+        }
+        .container {
+            padding: 50px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .product-card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="location.html">Store Location</a>
+        <a href="faq.html">FAQ</a>
+    </div>
+    
+    <div class="container">
+        <h1>Our Products</h1>
+        <p>We serve a variety of coffee and pastries to satisfy your cravings.</p>
+        <div class="products">
+            <div class="product-card">
+                <img src="img/drink1.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Strong and bold shot of espresso.</p>
+            </div>
+            <div class="product-card">
+                <img src="img/drink2.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Rich espresso with steamed milk and foam.</p>
+            </div>
+            <div class="product-card">
+                <img src="img/drink3.jpg" alt="Latte">
+                <h3>Latte</h3>
+                <p>Smooth espresso with creamy milk.</p>
+            </div>
+            <div class="product-card">
+                <img src="img/pastrie1.jpg" alt="Mocha">
+                <h3>Mocha</h3>
+                <p>Espresso mixed with chocolate and milk.</p>
+            </div>
+            <div class="product-card">
+                <img src="img/pastrie2.jpg" alt="Croissant">
+                <h3>Croissant</h3>
+                <p>Flaky and buttery pastry.</p>
+            </div>
+            <div class="product-card">
+                <img src="img/pastrie3.jpg" alt="Muffin">
+                <h3>Muffin</h3>
+                <p>Soft and delicious muffin variety.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
